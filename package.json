@@ -8,8 +8,7 @@
     "postinstall": "npm run build-ts",
     "start": "npm run serve",
     "serve": "node build/server.js",
-    "tsc": "tsc",
-    "publishheroku": "cd .. && git subtree push --prefix backend ese2018-team8-backend  master || true"
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "",
